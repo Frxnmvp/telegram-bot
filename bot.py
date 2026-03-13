@@ -115,7 +115,7 @@ PAYMENT_INFO = {
     "🪙 Binance": (
         "🪙 *Binance*\n\n"
         "ID Binance: `889752057`\n"
-        "Red: `USDT TRC20`\n\n"
+        "Red: `BINANCE`\n\n"
         "Después de pagar envía el monto."
     ),
     "🇺🇸 Zelle (USA)": (
@@ -1330,3 +1330,4 @@ app.add_handler(MessageHandler(filters.PHOTO, fotos))
 app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, texto))
 
 app.run_polling()
+
